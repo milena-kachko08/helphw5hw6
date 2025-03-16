@@ -811,7 +811,7 @@ button {
 }
 
 @media screen and (min-width:768px) {
-    .item-text-studio {
+    .item-subtitle-studio {
         text-align: left;
     }
 }
@@ -1109,6 +1109,7 @@ button {
     }
 
     .footer-container {
+        width: 1158px;
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -1156,7 +1157,6 @@ button {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
-    text-align: left;
     max-width: 288px;
 
 }
@@ -1169,6 +1169,10 @@ button {
 
 .media-container-footer {
     margin-right: 80px;
+}
+
+.footer-text {
+    text-align: left;
 }
     
 }
@@ -1185,7 +1189,7 @@ button {
 }
 
 @media screen and (min-width:768px) {
-    .section-our-team {
+    .soc-media-text {
         text-align: left;
     }
 }
@@ -1221,6 +1225,14 @@ button {
 .email-form-footer {
     display: flex;
     gap: 24px;
+}
+
+@media screen and (min-width:768px) {
+    .email-form-footer {
+            display: flex;
+            gap: 24px; 
+    }
+    
 }
 
 @media screen and (min-width:1158px) {

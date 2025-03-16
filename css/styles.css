@@ -1222,11 +1222,6 @@ button {
     background-color: #31d0aa;
 }
 
-.email-form-footer {
-    display: flex;
-    gap: 24px;
-}
-
 @media screen and (min-width:768px) {
     .email-form-footer {
             display: flex;
